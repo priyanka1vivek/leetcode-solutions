@@ -7,8 +7,8 @@
 6 *     ListNode(int x) : val(x), next(NULL) {}
 7 * };
 8 */
-9class Solution {
-10public:
+9 class Solution {
+10 public:
 11    ListNode *detectCycle(ListNode *head) {
 12        ListNode *slow = head;
 13        ListNode *fast = head;
